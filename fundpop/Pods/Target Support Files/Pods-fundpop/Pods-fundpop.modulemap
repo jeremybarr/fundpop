@@ -1,0 +1,6 @@
+framework module Pods_fundpop {
+  umbrella header "Pods-fundpop-umbrella.h"
+
+  export *
+  module * { export * }
+}
