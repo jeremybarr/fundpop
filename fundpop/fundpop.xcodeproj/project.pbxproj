@@ -13,6 +13,7 @@
 		5DCAE5601D14E19B0024EF32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCAE55E1D14E19B0024EF32 /* Main.storyboard */; };
 		5DCAE5621D14E19B0024EF32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DCAE5611D14E19B0024EF32 /* Assets.xcassets */; };
 		5DCAE5651D14E19B0024EF32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCAE5631D14E19B0024EF32 /* LaunchScreen.storyboard */; };
+		841669881D14EDA80037B5BD /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 841669871D14EDA80037B5BD /* Event.m */; };
 		88C5861536B0F15A0596947F /* libPods-fundpop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C71BC297D866DA78FA6E2E /* libPods-fundpop.a */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,8 @@
 		5DCAE5641D14E19B0024EF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DCAE5661D14E19B0024EF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82F85FCF70D9F4014A5EDDCB /* Pods-fundpop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fundpop.release.xcconfig"; path = "Pods/Target Support Files/Pods-fundpop/Pods-fundpop.release.xcconfig"; sourceTree = "<group>"; };
+		841669861D14EDA80037B5BD /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		841669871D14EDA80037B5BD /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		A7C71BC297D866DA78FA6E2E /* libPods-fundpop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fundpop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8AE326CA9007E34038306D /* Pods-fundpop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fundpop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fundpop/Pods-fundpop.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +85,8 @@
 				5DCAE5631D14E19B0024EF32 /* LaunchScreen.storyboard */,
 				5DCAE5661D14E19B0024EF32 /* Info.plist */,
 				5DCAE5551D14E19B0024EF32 /* Supporting Files */,
+				841669861D14EDA80037B5BD /* Event.h */,
+				841669871D14EDA80037B5BD /* Event.m */,
 			);
 			path = fundpop;
 			sourceTree = "<group>";
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841669881D14EDA80037B5BD /* Event.m in Sources */,
 				5DCAE55D1D14E19B0024EF32 /* ViewController.m in Sources */,
 				5DCAE55A1D14E19B0024EF32 /* AppDelegate.m in Sources */,
 				5DCAE5571D14E19B0024EF32 /* main.m in Sources */,
